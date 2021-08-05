@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"
+          href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+<body>
+    
+     <img src="images/TF2Banner1.png" width="100%" height="400">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Heavy
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="primary.html">Primary</a>
+    <a href="secondary.html">Secondary</a>
+    <a href="melee.html">Melee</a>
+  </div>
+  </div> 
+</div>
+
+ <div class="grid-container">
+          <div class="item1"><h1>Stock Shotgun</h1> <p>The Stock Shotgun is a good weapon in just about every class; it's reliable and consistent. But in terms of heavy it is quite useless. Heavy as access to the lunchbox items. Heavy has access to some of the most powerful and high damage dealing primary weapons in the game meaning he does not need a secondary damage dealing weapon. Use till you unlock the Sandvich or Second Banana</p></div>
+       <div class="item2"><img src="images/shotgun.jpg" width="100%" height="450"></div>
+          <div class="item3"><h2>The Family Business</h2><p>The Family Business suffers from the same issues that the Stock Shotgun has. It is outclassed by the lunchbox items heavy has access to. But if you really want to use a shotgun I advise using The Family Business as the extra clip size and firing speed give it a higher damage output than the Stock Shotgun.</p></div>
+       <div class="item4"><img src="images/business.jpg" width="100%" height="450"></div>
+        <div class="item5"><h2>Sandvich</h2> <p>The Sandvich is arguably heavies top choice secondary weapon offering a portable full healthkit. Heavy often takes a lot of damage and being able to replenish 300 health over 4 seconds with the Sandvich makes him able to spend more time firing then looking for health. It takes 30 seconds to get it back after being consumed. Sandvich can also be shared with teammates who are in need of health</p></div>
+       <div class="item6"><img src="images/sandvich.jpg" width="100%" height="450"></div>
+          <div class="item7"><h2></h2><p>The Second Banana is a very close second to the Sandvich and in certain situations outclasses the Sandvich. It heals 200 health but only takes 10 seconds to recharge unlike the Sandviches 30 seconds. When there is no medic in the team I recommend using the Second Banana over the Sandvich. But when there is a medic around use Sandvich when shared offers more health than the Second Banana</p></div>
+       <div class="item8"><img src="images/banana.jpg" width="100%" height="450"></div>
+               <div class="item9"><h2>Dalokohs bar.</h2><p>Not a bad choice but since the addition of the Second Banana is mainly outclassed by Second Banana. Offers 100 health every 10 seconds. 100 health less than the Second Banana. The one upside is that it offers an increased 50hp making his health go from 300 to 350 for 30 seconds. Although a nice buff it does not stack with medic overheals making it useless when a medic is around.</p></div>
+       <div class="item10"><img src="images/chocolate.jpg" width="100%" height="450"></div>
+               <div class="item11"><h2>Buffalo Steak Sandvich.</h2><p>Heavies worst lunch box item. When eaten all damage you deal is in minicrits and you move 30% faster. But the downsides is what makes this weapon useless. You are locked to only melee and take 20% more damage from all sources. Do not use this weapon unless in medieval mode. </p></div>
+       <div class="item12"><img src="images/steak.jpg" width="100%" height="450"></div>
+
+//*Script for drop down Navbar*//
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+    </div>
+    
+</body>
+</html>
